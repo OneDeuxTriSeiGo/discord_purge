@@ -1,0 +1,47 @@
+# SPDX-FileCopyrightText: 2024 Jacob Abel <jacobabel@nullpo.dev>
+# SPDX-License-Identifier: CC0-1.0
+#
+# Project .gitignore
+
+messages/
+
+# Imported: Perl.gitignore
+# Source: github/gitignore
+# Ref: 85def25146
+
+!Build/
+.last_cover_stats
+/META.yml
+/META.json
+/MYMETA.*
+*.o
+*.pm.tdy
+*.bs
+
+# Devel::Cover
+cover_db/
+
+# Devel::NYTProf
+nytprof.out
+
+# Dist::Zilla
+/.build/
+
+# Module::Build
+_build/
+Build
+Build.bat
+
+# Module::Install
+inc/
+
+# ExtUtils::MakeMaker
+/blib/
+/_eumm/
+/*.gz
+/Makefile
+/Makefile.old
+/MANIFEST.bak
+/pm_to_blib
+/*.zip
+

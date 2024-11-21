@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2024 Jacob Abel <jacobabel@nullpo.dev>
+# SPDX-License-Identifier: CC0-1.0
+#
+# Editor Config
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+max_line_length = 80
+indent_stype = space
+indent_size = 4
